@@ -63,6 +63,4 @@ app.post('/delete/:id',async(req,res)=>{
     res.redirect('/user');
 })
 
-
-
 app.listen('3000');
